@@ -1,0 +1,324 @@
+<html xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:w="urn:schemas-microsoft-com:office:word" xmlns="http://www.w3.org/TR/REC-html40">
+<head>
+<meta charset="utf-8">
+<meta name=ProgId content=Word.Document>
+<meta name=Generator content="Microsoft Word 15">
+<title>SkillSwap User Manual</title>
+<!--[if gte mso 9]><xml><w:WordDocument><w:View>Print</w:View><w:Zoom>100</w:Zoom></w:WordDocument></xml><![endif]-->
+<style>
+@page Section1 { size: 8.5in 11in; margin: 1in 1in 1in 1in; mso-header-margin: .5in; mso-footer-margin: .5in; }
+div.Section1 { page: Section1; }
+body { font-family: "Times New Roman", serif; font-size: 12pt; line-height: 1.5; }
+p { margin: 0 0 6pt 0; text-align: justify; }
+h1 { font-family: "Times New Roman", serif; font-size: 18pt; font-weight: bold; text-align: center; margin: 24pt 0 12pt 0; }
+h2 { font-family: "Times New Roman", serif; font-size: 14pt; font-weight: bold; text-align: center; margin: 18pt 0 12pt 0; }
+h3 { font-family: "Times New Roman", serif; font-size: 12pt; font-weight: bold; margin: 12pt 0 6pt 0; }
+.toc-main { font-weight: bold; }
+.toc-sub { margin-left: 36pt; }
+.toc-line { margin: 3pt 0; }
+.center { text-align: center; }
+.bold { font-weight: bold; }
+.step { margin-left: 0; }
+.step-sub { margin-left: 36pt; text-indent: -18pt; padding-left: 18pt; }
+.step-sub2 { margin-left: 54pt; text-indent: -18pt; padding-left: 18pt; }
+ul { margin: 6pt 0 6pt 36pt; }
+li { margin-bottom: 4pt; text-align: justify; }
+.pagebreak { page-break-before: always; }
+.subtitle { font-size: 14pt; text-align: center; margin-bottom: 24pt; }
+.footer { font-size: 11pt; text-align: center; margin-top: 36pt; }
+</style>
+</head>
+<body>
+<div class="Section1">
+
+<p class="center" style="font-size:22pt; font-weight:bold; margin-top:72pt;">SkillSwap</p>
+<p class="center subtitle">Peer-to-Peer Skill Bartering Mobile Application</p>
+<p class="center" style="font-size:14pt; font-weight:bold; margin-top:48pt;">(User Manual / System Instructions)</p>
+<p class="center" style="margin-top:72pt;">Version 1.0</p>
+<p class="center">June 2026</p>
+
+<p class="pagebreak"></p>
+
+<h2>TABLE OF CONTENTS</h2>
+
+<p class="toc-line"><span class="toc-main">Introduction</span> ............................................................................................................... 1-2</p>
+<p class="toc-line toc-sub">System Introduction .................................................................................................... 1</p>
+<p class="toc-line toc-sub">System Significance ................................................................................................... 1</p>
+<p class="toc-line toc-sub">System Beneficiaries and Features ............................................................................ 2</p>
+<p class="toc-line"><span class="toc-main">Getting Started</span> ............................................................................................................. 3</p>
+<p class="toc-line toc-sub">System Requirements ................................................................................................ 3</p>
+<p class="toc-line toc-sub">Installation Guide ........................................................................................................ 3</p>
+<p class="toc-line toc-sub">Using the App for the First Time ................................................................................. 4</p>
+<p class="toc-line"><span class="toc-main">How to Use the App</span> ................................................................................................ 5-15</p>
+<p class="toc-line toc-sub">A.1 Creating an Account ............................................................................................. 5</p>
+<p class="toc-line toc-sub">A.2 Signing In .............................................................................................................. 6</p>
+<p class="toc-line toc-sub">A.3 Home Dashboard ............................................................................................... 7</p>
+<p class="toc-line toc-sub">B.1 Managing Your Skills (Add, Edit, Disable) ........................................................ 8</p>
+<p class="toc-line toc-sub">B.2 Discovering Swap Partners ................................................................................. 9</p>
+<p class="toc-line toc-sub">C.1 Messages and Chat .......................................................................................... 10</p>
+<p class="toc-line toc-sub">C.2 Voice and Video Calls ........................................................................................ 11</p>
+<p class="toc-line toc-sub">C.3 Scheduling a Swap Session ............................................................................... 12</p>
+<p class="toc-line toc-sub">C.4 View Schedule Reminders ................................................................................. 13</p>
+<p class="toc-line toc-sub">C.5 Update Partner Ratings ................................................................................... 14</p>
+<p class="toc-line toc-sub">D.1 AI Assistant ....................................................................................................... 15</p>
+<p class="toc-line toc-sub">D.2 Profile and Account Settings ............................................................................. 16</p>
+<p class="toc-line"><span class="toc-main">All Rights Reserved</span> ................................................................................................... 17</p>
+
+<p class="pagebreak"></p>
+
+<h2>INTRODUCTION</h2>
+
+<h3>System Introduction</h3>
+<p>The <b>SkillSwap</b> Mobile Application is a mobile-based application designed to simplify and support peer-to-peer skill exchange for users. It offers a convenient platform for finding swap partners, viewing skill details, communicating through chat, and scheduling learning sessions directly from a smartphone.</p>
+<p>The app features an intuitive dashboard that displays your skill statistics and top match suggestions. Users can explore partners on the Discover screen, request a skill swap, chat with their partner like a messenger app, and optionally start voice or video calls. When a swap is accepted, users can schedule a session with date, time, and notes.</p>
+<p>SkillSwap is intended for users who are <b>18 years of age or older</b>. Registration requires a valid date of birth. Accounts for minors are not accepted.</p>
+<p>With its clean user interface and interactive functionality, SkillSwap enhances user convenience and promotes a faster, more organized skill-bartering experience. The app ensures that exchanging skills is straightforward, efficient, and accessible anytime, anywhere.</p>
+
+<h3>System Significance</h3>
+<p>The implementation of SkillSwap brings several key advantages to users who are looking for a streamlined and efficient way to learn and teach skills:</p>
+<ul>
+<li>Provides a mobile-friendly and accessible skill-swap platform</li>
+<li>Simplifies the process of finding partners, requesting swaps, and confirming sessions</li>
+<li>Enhances convenience by allowing users to chat and call partners in the app</li>
+<li>Reduces the time and effort needed to find someone to trade skills with</li>
+<li>Improves the overall user experience with an intuitive and clean interface</li>
+<li>Supports optional AI-powered partner ranking and an in-app assistant</li>
+</ul>
+
+<p class="pagebreak"></p>
+
+<h3>System Beneficiaries and Features</h3>
+<p><b>Registered User</b></p>
+<p>All registered users of the app benefit from the ability to:</p>
+<ul>
+<li>Create an account with name, email, birthdate (18+), location, and password</li>
+<li>Add skills they can teach and skills they want to learn</li>
+<li>Browse swap partners through the Discover screen</li>
+<li>View match scores and skill compatibility details</li>
+<li>Send and receive swap requests</li>
+<li>Chat with swap partners through the Messages screen</li>
+<li>Start voice or video calls from the chat screen</li>
+<li>Schedule swap sessions after a request is accepted</li>
+<li>Use the AI Assistant for guidance</li>
+<li>Edit skill level and description after adding a skill</li>
+<li>Disable a skill instead of deleting it (skills can be re-enabled later)</li>
+<li>View schedule reminders for upcoming swap appointments</li>
+<li>Rate swap partners from 1 to 5 stars and update ratings</li>
+<li>Manage profile photo, bio, biometrics, and sign out</li>
+</ul>
+<p>Registration and login are required. Users must add at least one skill before they can request a new swap.</p>
+
+<p class="pagebreak"></p>
+
+<h2>GETTING STARTED</h2>
+
+<h3>System Requirements</h3>
+<p>To use SkillSwap, ensure your mobile device meets the following minimum requirements:</p>
+<ul>
+<li><b>Device Type:</b> Android or iOS smartphone</li>
+<li><b>Operating System:</b> Android 8.0 (Oreo) or higher / iOS 13 or higher</li>
+<li><b>Storage Space:</b> At least 100 MB of free space</li>
+<li><b>Internet Connection:</b> Required for login, matching, chat, and calls</li>
+<li><b>Permissions:</b> Camera and microphone (for profile photo and calls); biometrics optional</li>
+</ul>
+<p>For development or testing, the backend also requires XAMPP (Apache + MySQL), PHP 8.1+, Node.js, and Expo Go on the phone.</p>
+
+<h3>Installation Guide</h3>
+<p>Follow these steps to set up and run SkillSwap:</p>
+<p><b>1. Start the Backend (XAMPP)</b></p>
+<ul>
+<li>Open the XAMPP Control Panel</li>
+<li>Start Apache and MySQL</li>
+<li>Run the database installer once: C:\xamppss\php\php.exe database\migrate.php</li>
+<li>Open http://localhost/SkillSwapApi/public/api/health in a browser — status should be ok</li>
+</ul>
+<p><b>2. Run the Mobile App (Expo)</b></p>
+<ul>
+<li>Open a terminal in the SkillSwap folder</li>
+<li>Run: npm install (first time only)</li>
+<li>Run: npx expo start --clear</li>
+<li>Scan the QR code with Expo Go on your phone (same Wi-Fi as the PC)</li>
+</ul>
+
+<h3>Using the App for the First Time</h3>
+<p>Upon opening the app:</p>
+<ul>
+<li>You will see the login screen or splash screen</li>
+<li>Tap Create an account to register (must be 18+)</li>
+<li>After signing in, go to Home and tap Manage my skills</li>
+<li>Add at least one skill you can teach or want to learn</li>
+<li>Open Discover to find partners and tap Request swap</li>
+<li>Open Messages to chat with your swap partner</li>
+</ul>
+
+<p class="pagebreak"></p>
+
+<h2>HOW TO USE THE APP</h2>
+
+<h3>A.1 Creating an Account (Registration)</h3>
+<p><b>Steps:</b></p>
+<p><b>1. Open the registration screen</b></p>
+<ul><li>From the login screen, tap Create an account</li></ul>
+<p><b>2. Fill out the registration form</b></p>
+<ul>
+<li>Full name</li>
+<li>Email address</li>
+<li>Date of birth (must be 18 years or older)</li>
+<li>Location (e.g. city)</li>
+<li>Password (at least 8 characters)</li>
+</ul>
+<p><b>3. Submit the form</b></p>
+<ul><li>Tap Create account</li></ul>
+<p><b>4. Optional biometrics</b></p>
+<ul><li>After registration, you may enable Face ID or fingerprint for faster sign-in</li></ul>
+
+<p class="pagebreak"></p>
+
+<h3>A.2 Signing In</h3>
+<p><b>Steps:</b></p>
+<p><b>1. Open the application</b></p>
+<ul><li>Launch SkillSwap from Expo Go or your device</li></ul>
+<p><b>2. Enter credentials</b></p>
+<ul><li>Type your email and password</li></ul>
+<p><b>3. Complete human verification</b></p>
+<ul><li>Check Verify you are human and complete the puzzle if shown</li></ul>
+<p><b>4. Sign in</b></p>
+<ul><li>Tap Sign in to enter the app</li></ul>
+
+<h3>A.3 Home Dashboard</h3>
+<p>When you sign in, the Home tab shows:</p>
+<ul>
+<li>Welcome message with your name</li>
+<li>Stats: skills offered, skills wanted, pending swaps, active swaps</li>
+<li>Manage my skills button</li>
+<li>Top matches preview with link to Discover</li>
+</ul>
+
+<p class="pagebreak"></p>
+
+<h3>B.1 Managing Your Skills (Add, Edit, Disable)</h3>
+<p><b>Steps:</b></p>
+<p class="step"><b>1. Open My Skills</b></p>
+<p class="step-sub">• From Home, tap <b>Manage my skills</b> — or from Profile, tap <b>My Skills</b>.</p>
+<p class="step"><b>2. Add a skill</b></p>
+<p class="step-sub">• Select <b>I can teach</b> or <b>I want to learn</b>.</p>
+<p class="step-sub">• Enter skill name and level, then tap <b>Add skill</b>.</p>
+<p class="step"><b>3. Edit a skill</b></p>
+<p class="step-sub">• Tap the <b>pencil (edit)</b> icon next to an active skill.</p>
+<p class="step-sub">• Change the level or description, then tap <b>Save</b>.</p>
+<p class="step"><b>4. Disable a skill (not delete)</b></p>
+<p class="step-sub">• Tap the <b>eye-off</b> icon next to a skill.</p>
+<p class="step-sub">• Confirm <b>Disable</b>. The skill is hidden from matching but kept in your profile.</p>
+<p class="step"><b>5. Re-enable a disabled skill</b></p>
+<p class="step-sub">• Under <b>Disabled skills</b>, tap the <b>refresh</b> icon to enable it again.</p>
+<p><b>Important:</b> You must have at least one <b>active</b> skill before you can request a swap on Discover.</p>
+
+<h3>B.2 Discovering Swap Partners</h3>
+<p><b>Steps:</b></p>
+<p><b>1. Open Discover</b></p>
+<ul><li>Tap the Discover tab at the bottom of the screen</li></ul>
+<p><b>2. Browse partners</b></p>
+<ul>
+<li>Scroll through suggested swap partners</li>
+<li>View match score, skills they offer, and skills they want</li>
+</ul>
+<p><b>3. Request a swap</b></p>
+<ul>
+<li>Tap Request swap on a partner card</li>
+<li>Tap Open chat in the confirmation dialog, or find the chat later in Messages</li>
+</ul>
+<p><b>4. If swap already sent</b></p>
+<ul><li>The button changes to Open chat — tap it to continue the conversation</li></ul>
+
+<p class="pagebreak"></p>
+
+<h3>C.1 Messages and Chat</h3>
+<p><b>Steps:</b></p>
+<p><b>1. Open Messages</b></p>
+<ul><li>Tap the Messages tab</li></ul>
+<p><b>2. Select a swap</b></p>
+<ul><li>Tap a partner name to open the chat</li></ul>
+<p><b>3. Send messages</b></p>
+<ul><li>Type in the message box and tap the send button</li></ul>
+<p><b>4. Accept or decline requests</b></p>
+<ul><li>If someone sent you a request, tap Accept or Decline on the Messages list</li></ul>
+
+<h3>C.2 Voice and Video Calls</h3>
+<p><b>Steps:</b></p>
+<p><b>1. Open a chat</b></p>
+<ul><li>Go to Messages and open a conversation</li></ul>
+<p><b>2. Start a call</b></p>
+<ul>
+<li>Tap the phone icon for a voice call</li>
+<li>Tap the video camera icon for a video call</li>
+</ul>
+<p><b>3. Join the call</b></p>
+<ul><li>Your partner opens the same chat and taps the same call button to join</li></ul>
+
+<h3>C.3 Scheduling a Swap Session</h3>
+<p><b>Steps:</b></p>
+<p><b>1. Accept the swap first</b></p>
+<ul><li>Scheduling is available only when the swap status is accepted</li></ul>
+<p><b>2. Open the chat and tap Schedule</b></p>
+<ul><li>Enter date and time (e.g. 2026-07-01 15:00)</li></ul>
+<p><b>3. Add notes (optional)</b></p>
+<ul><li>Describe what you will cover in the session</li></ul>
+<p><b>4. Confirm</b></p>
+<ul><li>Tap Confirm session — view upcoming sessions on Profile</li></ul>
+
+<p class="pagebreak"></p>
+
+<h3>C.4 View Schedule Reminders</h3>
+<p><b>Steps:</b></p>
+<p class="step"><b>1. Open reminders from Home</b></p>
+<p class="step-sub">• Tap <b>View schedule reminders</b> on the Home dashboard.</p>
+<p class="step"><b>2. Or open from Profile</b></p>
+<p class="step-sub">• Go to Profile → <b>Upcoming sessions</b> → tap <b>View all reminders</b>.</p>
+<p class="step"><b>3. Read appointment details</b></p>
+<p class="step-sub">• Each reminder shows a label such as <b>Today</b>, <b>Tomorrow</b>, or <b>In 3 days</b>.</p>
+<p class="step-sub">• Tap a reminder to open the related swap chat.</p>
+
+<h3>C.5 Update Partner Ratings</h3>
+<p><b>Steps:</b></p>
+<p class="step"><b>1. Open an accepted swap chat</b></p>
+<p class="step-sub">• Ratings are available only when the swap status is <b>accepted</b>.</p>
+<p class="step"><b>2. Select stars</b></p>
+<p class="step-sub">• Tap 1 to 5 stars to rate your swap partner.</p>
+<p class="step"><b>3. Submit or update</b></p>
+<p class="step-sub">• Tap <b>Submit rating</b> or <b>Update rating</b> to save your score.</p>
+<p class="step-sub">• You can change your rating at any time.</p>
+
+<p class="pagebreak"></p>
+
+<h3>D.1 AI Assistant</h3>
+<p><b>Steps:</b></p>
+<p><b>1. Open the AI tab</b></p>
+<ul><li>Tap AI at the bottom of the screen</li></ul>
+<p><b>2. Ask a question</b></p>
+<ul><li>Type a message about skills, swapping, or learning</li></ul>
+<p><b>3. View the reply</b></p>
+<ul><li>The assistant responds using Google Gemini when configured</li></ul>
+
+<h3>D.2 Profile and Account Settings</h3>
+<p>From the Profile tab you can:</p>
+<ul>
+<li>Change profile photo (gallery or camera)</li>
+<li>Edit and save your bio</li>
+<li>Enable or disable Face ID / fingerprint sign-in</li>
+<li>Open My Skills and AI Assistant</li>
+<li>View upcoming sessions</li>
+<li>Sign out</li>
+</ul>
+
+<p class="pagebreak"></p>
+
+<h2>ALL RIGHTS RESERVED</h2>
+
+<p class="center bold" style="font-size:14pt;">SkillSwap System</p>
+<p class="center">(User Manual / System Instructions)</p>
+<p style="margin-top:18pt;">All rights reserved. [2026] [SkillSwap]. Unauthorized reproduction or distribution of this manual, or any portion thereof, is strictly prohibited.</p>
+<p style="margin-top:18pt;">Produced by: <i>[Your Name/s Here — e.g. Group Members, IT Students]</i></p>
+
+</div>
+</body>
+</html>
